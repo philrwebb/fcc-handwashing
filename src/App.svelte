@@ -9,6 +9,8 @@ h3 {
 }
 </style>
 <h1>Handwashing App</h1>
+<div>
+</div>
 <Timer />
 <HowTo />
 
