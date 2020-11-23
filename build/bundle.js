@@ -558,12 +558,14 @@ var app = (function () {
     			h3 = element("h3");
 
     			h3.innerHTML = `<a href="https://www.who.int/gpsc/clean_hands_protection/en/">Picture Source</a> 
-<a href="https://freesound.org/people/metrostock99/sounds/345086/">Sound Source</a>`;
+   <a href="https://freesound.org/people/metrostock99/sounds/345086/">Sound
+      Source</a>`;
 
     			t8 = space();
     			audio_1 = element("audio");
-    			attr(h1, "class", "svelte-uepr3z");
-    			attr(h3, "class", "svelte-uepr3z");
+    			audio_1.innerHTML = `<track kind="captions"/>`;
+    			attr(h1, "class", "svelte-hyliwm");
+    			attr(h3, "class", "svelte-hyliwm");
     			if (audio_1.src !== (audio_1_src_value = "sound.wav")) attr(audio_1, "src", audio_1_src_value);
     		},
     		m(target, anchor) {
